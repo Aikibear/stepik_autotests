@@ -16,6 +16,7 @@ try:
     price = WebDriverWait(browser, 12).until(
         EC.text_to_be_present_in_element((By.ID, "price"), "$100")
     )
+
     button = browser.find_element_by_id("book")
     button.click()
     
@@ -26,7 +27,6 @@ try:
     
     input1 = browser.find_element_by_id("answer")
     input1.send_keys(y)
-    
     
 
     # Отправляем заполненную форму
