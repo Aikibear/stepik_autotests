@@ -1,1 +1,3 @@
-# stepik_autotests course
+# stepik_autotests
+
+Course on stepik
